@@ -1,0 +1,14 @@
+[ req ]
+default_bits = 2048
+default_keyfile = secret_key.pem
+distinguished_name = req_distinguished_name
+prompt = no
+[ req_distinguished_name ]
+CN=RU
+ST=MO
+L=Moscow
+O=BMSTU
+OU=RK6
+CN=Vadim Trifonov
+emailAddress=rk6@bmstu.ru
+
